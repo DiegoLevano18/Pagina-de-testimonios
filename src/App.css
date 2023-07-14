@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: #0f0f0f;
+}
+
+h1 {
+  color: #f1f1f1;
+  min-width: 700px;
+  max-width: 900px;
+  font-size: 2.8em;
+  font-family: Lato, sans-serif;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 32px 0;
+  margin-top: 60px;
+}
+
+/*Modo Oscuro - En progreso*/
+.modoOscuro {
+  position: fixed;
+  height: 35px;
+  width: 35px;
+  bottom: 50px;
+  right: 60px;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.contenedor-principal {
+  min-height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center; 
+  justify-content: center;
+}
